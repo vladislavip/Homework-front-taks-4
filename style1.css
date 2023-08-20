@@ -1,0 +1,71 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+
+}
+
+.main
+{
+
+    width: 100%;
+    display: flex;
+    border: 2px solid black;
+
+}
+
+
+.task-frame
+{
+    width: 25%;
+    border: 2px solid black;
+    height: 200px;
+}
+.box-container{
+
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.box{
+
+    width: 50px;
+    height:50px;
+    border: 2px solid black;
+    background-color: brown;
+    transition:  transform  2s;
+    
+    
+
+}
+
+.centered{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ex1:hover{
+    
+    transform: translate(19vw,20vh);
+    background-color: green;
+}
+
+.ex2:hover{
+    background-color: green;
+    transform: rotate(360deg);
+}
+
+.ex3:hover{
+    background-color: green;
+    transform: scale(2,2);
+}
+
+.ex4:hover{
+    background-color: green;
+    transform: skewX(50deg)
+}
+
+
+
+
